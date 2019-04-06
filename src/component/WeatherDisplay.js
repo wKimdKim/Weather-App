@@ -45,6 +45,7 @@ class WeatherDisplay extends Component {
           <h2>Weather</h2>
         </div>
         <div>
+          <h5>Current Location Weather</h5>
           {this.state.isLoaded ? " " : "Retrieving Data..."}
           {weatherCard}
         </div>

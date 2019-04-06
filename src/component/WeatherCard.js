@@ -8,7 +8,7 @@ class WeatherCard extends Component {
       <Card>
         <Card.Body>
           <Card.Title>{this.props.name}</Card.Title>
-          <Card.Text>Status: {this.props.name}</Card.Text>
+          <Card.Text>Status: {this.props.status}</Card.Text>
           <Card.Text>Description: {this.props.description}</Card.Text>
         </Card.Body>
       </Card>
